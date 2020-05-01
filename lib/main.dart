@@ -70,7 +70,7 @@ class _MyAppState extends State<MyApp> {
               Expanded(
                 child: Container(),
               ),
-              Image.asset("assets/image_02.png")
+              Expanded(child: Image.asset("assets/image_02.png"))
             ],
           ),
           SingleChildScrollView(
