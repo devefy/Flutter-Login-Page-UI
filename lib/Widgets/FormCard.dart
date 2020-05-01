@@ -6,7 +6,8 @@ class FormCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Container(
       width: double.infinity,
-      height: ScreenUtil.getInstance().setHeight(500),
+//      height: ScreenUtil.getInstance().setHeight(500),
+      padding: EdgeInsets.only(bottom: 1),
       decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(8.0),
